@@ -1,0 +1,428 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.16f1 (d2c21f0ef2f1) revision 13812255'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 16316 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Rabinowitz/MaiUnity
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+3612
+Successfully changed project path to: C:/Users/Rabinowitz/MaiUnity
+C:/Users/Rabinowitz/MaiUnity
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [16140] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1484226667 [EditorId] 1484226667 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-17JN7CP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [16140] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1484226667 [EditorId] 1484226667 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-17JN7CP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 15.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.16f1 (d2c21f0ef2f1)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Rabinowitz/MaiUnity/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 580 Series (ID=0x67df)
+    Vendor:   ATI
+    VRAM:     4075 MB
+    Driver:   27.20.15003.1004
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56148
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.021226 seconds.
+- Loaded All Assemblies, in  0.533 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.385 seconds
+Domain Reload Profiling: 914ms
+	BeginReloadAssembly (153ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (100ms)
+	LoadAllAssembliesAndSetupDomain (206ms)
+		LoadAssemblies (150ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (203ms)
+			TypeCache.Refresh (201ms)
+				TypeCache.ScanAssembly (184ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (386ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (302ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (206ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.967 seconds
+Refreshing native plugins compatible for Editor in 5.73 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.767 seconds
+Domain Reload Profiling: 1729ms
+	BeginReloadAssembly (210ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (615ms)
+		LoadAssemblies (509ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (229ms)
+			TypeCache.Refresh (204ms)
+				TypeCache.ScanAssembly (187ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (768ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (566ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (88ms)
+			ProcessInitializeOnLoadAttributes (415ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 5.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3083 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (57.0 KB). Loaded Objects now: 3544.
+Memory consumption went from 122.4 MB to 122.3 MB.
+Total: 3.642500 ms (FindLiveObjects: 0.352800 ms CreateObjectMapping: 0.142600 ms MarkObjects: 3.013000 ms  DeleteObjects: 0.132900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 70197.617451 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b4efa2d36e5f885b8da310dce19fa3ee') in 0.132351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+IOException: Sharing violation on path C:\Users\Rabinowitz\MaiUnity\ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <17d9ce77f27a4bd2afb5ba32c9bea976>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <17d9ce77f27a4bd2afb5ba32c9bea976>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <17d9ce77f27a4bd2afb5ba32c9bea976>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <17d9ce77f27a4bd2afb5ba32c9bea976>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <17d9ce77f27a4bd2afb5ba32c9bea976>:0 
+  at UnityEditor.SettingsManagement.FileSettingsRepository.Save () [0x000e2] in .\Library\PackageCache\com.unity.settings-manager@2.0.1\Editor\FileSettingsRepository.cs:154 
+  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in <78fe3e0b66cf40fc8dbec96aa3584483>:0 
+
+(Filename: ./Library/PackageCache/com.unity.settings-manager@2.0.1/Editor/FileSettingsRepository.cs Line: 154)
+
+- Loaded All Assemblies, in  0.730 seconds
+Refreshing native plugins compatible for Editor in 5.75 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 11.492 seconds
+Domain Reload Profiling: 12215ms
+	BeginReloadAssembly (230ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (374ms)
+		LoadAssemblies (462ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (25ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (11492ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (529ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (93ms)
+			ProcessInitializeOnLoadAttributes (372ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (18ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 6.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3077 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.2 KB). Loaded Objects now: 3549.
+Memory consumption went from 123.3 MB to 123.2 MB.
+Total: 4.067400 ms (FindLiveObjects: 0.354800 ms CreateObjectMapping: 0.121600 ms MarkObjects: 3.516500 ms  DeleteObjects: 0.073100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1931.018875 seconds.
+  path: Assets/TopDownCar_MADEntertainment/CarController.cs
+  artifactKey: Guid(63d7fa97ab7b7d64eb850088b295d636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TopDownCar_MADEntertainment/CarController.cs using Guid(63d7fa97ab7b7d64eb850088b295d636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7996019b87f57dc202b06e0ab735f44e') in 0.003213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.689303 seconds.
+  path: Assets/TopDownCar_MADEntertainment/CameraFollowScript.cs
+  artifactKey: Guid(4b8a8f433d4e0f7439d05f791e393c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TopDownCar_MADEntertainment/CameraFollowScript.cs using Guid(4b8a8f433d4e0f7439d05f791e393c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da8e1256ef30193ba2866156f8cf43b1') in 0.000628 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.307051 seconds.
+  path: Assets/TopDownCar_MADEntertainment/Setup Guide.docx
+  artifactKey: Guid(2900ffcf7fe31c344acee13f0629ffd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TopDownCar_MADEntertainment/Setup Guide.docx using Guid(2900ffcf7fe31c344acee13f0629ffd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90cedff87ee53258587fb77e550bf02a') in 0.014570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 30.292261 seconds.
+  path: Assets/TopDownCar_MADEntertainment/DemoScene.unity
+  artifactKey: Guid(708115e499c0d8440b13086712c0e85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TopDownCar_MADEntertainment/DemoScene.unity using Guid(708115e499c0d8440b13086712c0e85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba96b57b809a94e10d0b085620c51660') in 0.000675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 199.080612 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a85bec50c8be757587fedfaade313866') in 0.000699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.885503 seconds.
+  path: Assets/TopDownCar_MADEntertainment/New_vehicle Pack
+  artifactKey: Guid(39cfba2597e078f4ea59b29e58f34091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TopDownCar_MADEntertainment/New_vehicle Pack using Guid(39cfba2597e078f4ea59b29e58f34091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd560a3045c5c8bd95a8be7e2a1f85b35') in 0.000549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.087912 seconds.
+  path: Assets/TopDownCar_MADEntertainment/New_vehicle Pack/Ambulance.png
+  artifactKey: Guid(d92079cada1caa14bbba12eea57eb7fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TopDownCar_MADEntertainment/New_vehicle Pack/Ambulance.png using Guid(d92079cada1caa14bbba12eea57eb7fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9cc0f3113d921868217679b5b678588') in 0.146782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TopDownCar_MADEntertainment/New_vehicle Pack/Police.png
+  artifactKey: Guid(f01e7f7bbb9037e49b084cbe4be7edf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TopDownCar_MADEntertainment/New_vehicle Pack/Police.png using Guid(f01e7f7bbb9037e49b084cbe4be7edf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '352d59be7e981397a3b1d6e3fd482b22') in 0.034611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TopDownCar_MADEntertainment/New_vehicle Pack/Car.png
+  artifactKey: Guid(13e0e13f4d6469046a1f5b04b26d8f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TopDownCar_MADEntertainment/New_vehicle Pack/Car.png using Guid(13e0e13f4d6469046a1f5b04b26d8f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9223200a7e5de4c1a4ca014dfafec83') in 0.033477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/TopDownCar_MADEntertainment/New_vehicle Pack/truck.png
+  artifactKey: Guid(64dfd88644c5e854d964a36538121127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TopDownCar_MADEntertainment/New_vehicle Pack/truck.png using Guid(64dfd88644c5e854d964a36538121127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ca200caf4e5a9f4ac249dcf51068446') in 0.054118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TopDownCar_MADEntertainment/New_vehicle Pack/Mini_truck.png
+  artifactKey: Guid(eef2d0c87d90ee34d8a62f3057cd9e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TopDownCar_MADEntertainment/New_vehicle Pack/Mini_truck.png using Guid(eef2d0c87d90ee34d8a62f3057cd9e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38921b66b1d20a6491fd5b218fd7f730') in 0.034589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 92.745479 seconds.
+  path: Assets/TopDownCar_MADEntertainment/Vehicle_Prefabs/Audi.prefab
+  artifactKey: Guid(ec09879104996be4abf7530f01149b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TopDownCar_MADEntertainment/Vehicle_Prefabs/Audi.prefab using Guid(ec09879104996be4abf7530f01149b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e8f8f08b9242b82fd5c7d05ed921855') in 0.103871 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/TopDownCar_MADEntertainment/Vehicle_Prefabs/Truck.prefab
+  artifactKey: Guid(ea2d17cc438a220458800b3cfff7839a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TopDownCar_MADEntertainment/Vehicle_Prefabs/Truck.prefab using Guid(ea2d17cc438a220458800b3cfff7839a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da6eb3cb9f5d33e3fe791aaca9abbf4d') in 0.022478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TopDownCar_MADEntertainment/Vehicle_Prefabs/Car.prefab
+  artifactKey: Guid(1b4970d015b97314d838935fb2cf3312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TopDownCar_MADEntertainment/Vehicle_Prefabs/Car.prefab using Guid(1b4970d015b97314d838935fb2cf3312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64914aa65816c70d02c0c5741a55f192') in 0.023886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TopDownCar_MADEntertainment/Vehicle_Prefabs/Mini_truck.prefab
+  artifactKey: Guid(d4aa79d2c272d5b4190ab15ab4dcf371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TopDownCar_MADEntertainment/Vehicle_Prefabs/Mini_truck.prefab using Guid(d4aa79d2c272d5b4190ab15ab4dcf371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a5ef4978e761fb4a11f6feff27e9307') in 0.021044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TopDownCar_MADEntertainment/Vehicle_Prefabs/Police.prefab
+  artifactKey: Guid(9ebd35a6ce73c81438ded9eb65250f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TopDownCar_MADEntertainment/Vehicle_Prefabs/Police.prefab using Guid(9ebd35a6ce73c81438ded9eb65250f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bc10c1461801ee6e10b7d8fa7b8fe5a') in 0.018802 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TopDownCar_MADEntertainment/Vehicle_Prefabs/Black_viper.prefab
+  artifactKey: Guid(3eb610783a837a343ae1a0fc08c26d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TopDownCar_MADEntertainment/Vehicle_Prefabs/Black_viper.prefab using Guid(3eb610783a837a343ae1a0fc08c26d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffb429b57150e1053bea97161d566dfc') in 0.019609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 5.778656 seconds.
+  path: Assets/TopDownCar_MADEntertainment/New_vehicle Pack/Police_Animation/2.png
+  artifactKey: Guid(a8da4b3a3c8f7cc438cb5aed8bde410f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TopDownCar_MADEntertainment/New_vehicle Pack/Police_Animation/2.png using Guid(a8da4b3a3c8f7cc438cb5aed8bde410f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72d5edc834c0e52df0f67e9d9d9646ff') in 0.035024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.750823 seconds.
+  path: Assets/TopDownCar_MADEntertainment/New_vehicle Pack/Ambulance_Animation/2.png
+  artifactKey: Guid(9a933ca3b1af3774d8fdfd435675dff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TopDownCar_MADEntertainment/New_vehicle Pack/Ambulance_Animation/2.png using Guid(9a933ca3b1af3774d8fdfd435675dff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18b5b7ae686d4ddcbad8513155f88dcc') in 0.035659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ќпераци€ ввода/вывода была прервана из-за завершени€ потока команд или по запросу приложени€.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
